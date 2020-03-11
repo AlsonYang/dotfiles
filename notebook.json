@@ -1,0 +1,28 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "toc2/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "rubberband/main": true,
+    "scratchpad/main": true,
+    "varInspector/main": true,
+    "codefolding/main": true,
+    "execute_time/ExecuteTime": true,
+    "highlighter/highlighter": true,
+    "highlight_selected_word/main": true,
+    "snippets_menu/main": true,
+    "table_beautifier/main": true,
+    "hide_input_all/main": true,
+    "hide_input/main": true,
+    "keyboard_shortcut_editor/main": true,
+    "freeze/main": true,
+    "code_prettify/code_prettify": true,
+    "hide_header/main": true,
+    "code_prettify/autopep8": true,
+    "move_selected_cells/main": true,
+    "zenmode/main": true,
+    "autoscroll/main": true,
+    "autosavetime/main": true,
+    "collapsible_headings/main": true
+  }
+}
