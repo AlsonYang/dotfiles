@@ -25,4 +25,16 @@ alias gotp="cd ~/Documents/Typora/"
 # go to ~/Desktop/Project/
 alias gopj="cd ~/Desktop/Project/"
 
+# go to ~/Desktop/Project/
+alias godf="cd ~/Desktop/Project/dotfiles"
+
 ## >>> laptop specific - involve directories >>> 
+
+pushtpc(){
+	CWD=`pwd`&&
+	cd ~/Documents/Typora/Personal/ &&
+	git add . &&
+	git commit -m "$1" && 
+	git push && cd $CWD 
+}
+
