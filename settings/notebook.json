@@ -18,7 +18,6 @@
     "freeze/main": true,
     "code_prettify/code_prettify": true,
     "hide_header/main": true,
-    "code_prettify/autopep8": true,
     "move_selected_cells/main": true,
     "zenmode/main": true,
     "autoscroll/main": true,
