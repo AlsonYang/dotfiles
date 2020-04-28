@@ -1,9 +1,7 @@
 echo "soft linking dotfiles"
 
-DIR=`pwd`
-
-ln -sf $DIR/.bashrc ~/.bashrc
-ln -sf $DIR/.bash_profile ~/.bash_profile
-
+ln -sf ./.bashrc ~/.bashrc
+ln -sf ./.bash_profile ~/.bash_profile
+ln -sf ./.zshrc ~/.zshrc
 echo "Linking complete! Restart bash now!"
 
