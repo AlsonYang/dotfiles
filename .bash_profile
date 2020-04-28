@@ -19,3 +19,6 @@ unset __conda_setup
 if [ -f "$HOME/.bashrc" ]; then
     . "$HOME/.bashrc"
 fi
+
+# Change the color scheme so that the executable files are not colored in red but in color that same as other files. It was LSCOLORS="Gxfxcxdxbxegedabagacad" by default
+export LSCOLORS="Gxfxcxdxxxegedabagacad"

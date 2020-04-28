@@ -28,6 +28,9 @@ alias gopj="cd ~/Desktop/Project/"
 # go to ~/Desktop/Project/
 alias godf="cd ~/Desktop/Project/dotfiles"
 
+# go to ~/Desktop/Personal/Youtube\ Music
+alias goms="cd ~/Desktop/Personal/Youtube\ Music"
+
 ## >>> laptop specific - involve directories >>> 
 
 pushtpc(){
