@@ -15,3 +15,9 @@ for file in $files; do
 done
 echo "Linking complete! Restart bash now!"
 
+# change some settings
+# 1. disable mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
+# 2. change screenshot location to ~/Desktop/Screenshots
+mkdir ~/Desktop/Screenshots;defaults write com.apple.screencapture location ~/Desktop/Screenshots;killall SystemUIServer
+
