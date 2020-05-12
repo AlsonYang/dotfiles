@@ -12,6 +12,7 @@
     "chrishelgert/zazu-fkill", // kill <app>
     "blakek/zazu-ip-address",
     "tinytacoteam/zazu-system", // lock|screensaver|shutdown|logout|restart|empty trash
+    "gabrielpoca/zazu-github-repos",
     {
       "name": "tinytacoteam/zazu-fallback",
       "variables": {
