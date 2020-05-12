@@ -32,7 +32,11 @@ alias godf="cd ~/Desktop/Project/dotfiles"
 alias goms="cd ~/Desktop/Personal/Youtube\ Music"
 
 ## >>> laptop specific - involve directories >>> 
+# timer
+alias timer="python3 ~/Desktop/Project/miscellaneous/goodstuffs/stopwatch.py"
 
+
+# push typora notes to git with commit. usageL pushtp 'comment'
 pushtpc(){
 	CWD=`pwd`&&
 	cd ~/Documents/Typora/Personal/ &&

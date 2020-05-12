@@ -1,0 +1,47 @@
+{
+  "hotkey": "cmd+space",
+  "theme": "tinytacoteam/zazu-dark-theme",
+  "displayOn": "detect",
+  "plugins": [
+    "tinytacoteam/zazu-calculator",
+    "tinytacoteam/zazu-template",
+    "tinytacoteam/zazu-system",
+    "tinytacoteam/zazu-package-manager",
+    "danielbayerlein/zazu-battery",
+    "tinytacoteam/zazu-chrome-bookmarks",
+    "chrishelgert/zazu-fkill", // kill <app>
+    "blakek/zazu-ip-address",
+    "tinytacoteam/zazu-system", // lock|screensaver|shutdown|logout|restart|empty trash
+    {
+      "name": "tinytacoteam/zazu-fallback",
+      "variables": {
+        "rootSearches": [
+          "google"
+        ]
+      }
+    },
+    {
+      "name": "tinytacoteam/zazu-file-finder", // find <file/folder>
+      "variables": {
+        "append": true,
+        "directories": {
+          "filePath": [
+            "~/"
+          ],
+        }
+      }
+    },
+    {
+      "name": "blainesch/zazu-weather",
+      "variables": {
+        "degreeType": "C"
+      }
+    },
+    {
+      "name": "tinytacoteam/zazu-clipboard",
+      "variables": {
+        "ClipboardKey": "cmd+shift+v"
+      }
+    }
+  ]
+}
