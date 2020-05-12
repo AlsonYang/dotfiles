@@ -20,14 +20,6 @@
       }
     },
     {
-      "name": "tinytacoteam/zazu-fallback",
-      "variables": {
-        "rootSearches": [
-          "google"
-        ]
-      }
-    },
-    {
       "name": "tinytacoteam/zazu-file-finder", // find <file/folder>
       "variables": {
         "append": true,
@@ -39,6 +31,31 @@
             "/System/Applications"
           ],
         }
+      }
+    },
+    {
+      "name": "tinytacoteam/zazu-fallback",
+      "variables": {
+        "prefixSearches": {
+          "baidu": {
+            "icon": "fa-book",
+            "name": "百度",
+            "url": "http://www.baidu.com/s?wd="
+          },
+          "百度": {
+            "icon": "fa-book",
+            "name": "百度",
+            "url": "http://www.baidu.com/s?wd="
+          },
+        }
+      }
+    },
+    {
+      "name": "tinytacoteam/zazu-fallback",
+      "variables": {
+        "rootSearches": [
+          "google"
+        ]
       }
     },
     {
