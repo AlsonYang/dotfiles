@@ -8,11 +8,17 @@
     "tinytacoteam/zazu-system",
     "tinytacoteam/zazu-package-manager",
     "danielbayerlein/zazu-battery",
-    "tinytacoteam/zazu-chrome-bookmarks",
     "chrishelgert/zazu-fkill", // kill <app>
     "blakek/zazu-ip-address",
     "tinytacoteam/zazu-system", // lock|screensaver|shutdown|logout|restart|empty trash
     "gabrielpoca/zazu-github-repos",
+    {
+      "name": "tinytacoteam/zazu-chrome-bookmarks",
+      "variables": {
+        "append": true,
+        "file": "~/Library/Application Support/Google/Chrome/default/Bookmarks"
+      }
+    },
     {
       "name": "tinytacoteam/zazu-fallback",
       "variables": {

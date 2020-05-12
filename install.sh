@@ -1,5 +1,6 @@
+## link all the dotfiles to home_directory
 # make sure home_directory is provided as argument
-if [ "$#" -ne 1 ]; then
+if [ "$#" != 1 ]; then
     echo "Usage: install.sh <home_directory>"
     exit 1
 fi
@@ -15,7 +16,7 @@ for file in $files; do
 done
 echo "Linking complete! Restart bash now!"
 
-# change some settings
+## change some settings
 # 1. disable mouse acceleration
 defaults write .GlobalPreferences com.apple.mouse.scaling -1
 # 2. change screenshot location to ~/Desktop/Screenshots
