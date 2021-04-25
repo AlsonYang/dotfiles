@@ -4,8 +4,8 @@
   "displayOn": "detect",
   "plugins": [
     "tinytacoteam/zazu-calculator",
+    // "avaly/zazu-currency-convertor", // money <aud> <cny>  --> not use because javascript error on this Mac
     "tinytacoteam/zazu-template",
-    "tinytacoteam/zazu-system",
     "tinytacoteam/zazu-package-manager",
     "danielbayerlein/zazu-battery",
     "chrishelgert/zazu-fkill", // kill <app>
