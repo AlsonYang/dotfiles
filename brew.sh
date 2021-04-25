@@ -9,7 +9,7 @@ fi
 # Essential
 brew install --cask google-chrome
 brew install --cask wechat
-brew install --cask qqinput
+brew install --cask sogouinput
 brew install --cask youdaodict
 brew install --cask scroll-reverser
 
