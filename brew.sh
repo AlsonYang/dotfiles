@@ -20,3 +20,4 @@ brew cask install qlstephen qlcolorcode qlmarkdown quicklook-json qlimagesize
 brew install wget
 brew install zsh
 brew install tldr
+brew install htop
