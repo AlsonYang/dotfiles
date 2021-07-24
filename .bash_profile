@@ -10,4 +10,6 @@ export LSCOLORS="Gxfxcxdxxxegedabagacad"
 export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 
 # copy zazurc.json file
-cp /Users/yangj2/Desktop/Project/dotfiles/.zazurc.json /Users/yangj2/.zazurc.json
+cp ~/Desktop/Project/dotfiles/.zazurc.json ~/.zazurc.json
+
+export PATH="$HOME/.poetry/bin:$PATH"
