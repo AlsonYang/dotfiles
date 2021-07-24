@@ -1,3 +1,4 @@
+#!/bin/bash
 ## link all the dotfiles to home_directory
 # make sure home_directory is provided as argument
 if [ "$#" != 1 ]; then

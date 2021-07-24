@@ -11,7 +11,6 @@ brew install --cask google-chrome
 brew install --cask wechat
 brew install --cask sogouinput
 brew install --cask youdaodict
-brew install --cask scroll-reverser
 
 # functional
 brew install --cask AppCleaner
@@ -21,6 +20,7 @@ brew install --cask IINA
 brew install --cask vanilla
 brew install --cask steermouse
 brew install --cask notion
+brew install --cask thunder
 
 # DS
 brew install --cask iterm2
