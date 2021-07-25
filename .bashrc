@@ -44,3 +44,5 @@ pushtpc(){
 	git commit -m "$1" && 
 	git push && cd $CWD 
 }
+
+complete -C /usr/local/bin/terraform terraform

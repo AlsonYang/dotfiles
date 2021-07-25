@@ -8,7 +8,7 @@
     "debug.console.fontSize": 12,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.fontWeight": "normal",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "python.pythonPath": "/usr/local/bin/python3",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,

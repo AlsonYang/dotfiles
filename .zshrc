@@ -116,3 +116,9 @@ if [ -f ~/.bashrc ]; then
 fi
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/alsonyang/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/alsonyang/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/alsonyang/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/alsonyang/google-cloud-sdk/completion.zsh.inc'; fi
