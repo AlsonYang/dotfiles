@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Predawn",
-    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-seti",
     "editor.fontSize": 12,
     "editor.fontWeight": "500",
     // "editor.fontFamily": "Source Code Pro",
@@ -37,4 +37,7 @@
     "terminal.integrated.inheritEnv": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.shell.osx": "/bin/bash",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
 }
