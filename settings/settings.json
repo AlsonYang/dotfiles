@@ -37,4 +37,7 @@
     "terminal.integrated.inheritEnv": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.shell.osx": "/bin/bash",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
 }
