@@ -10,7 +10,7 @@
     "terminal.integrated.fontWeight": "normal",
     "window.zoomLevel": 1,
     "python.pythonPath": "/usr/local/bin/python3",
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "",
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
@@ -40,4 +40,5 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
+    "explorer.confirmDelete": false,
 }
