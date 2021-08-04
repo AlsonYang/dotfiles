@@ -15,8 +15,8 @@
         "command": "python.execInTerminal"
     },
     {
-        "key": "shift+enter",
-        "command": "-python.execSelectionInTerminal",
+        "key": "alt+enter",
+        "command": "python.execSelectionInTerminal",
         "when": "editorTextFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
