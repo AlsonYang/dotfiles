@@ -1,3 +1,4 @@
+#!/bin/bash
 if which brew 
 then
 	echo 'brew exists'
