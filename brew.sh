@@ -39,3 +39,4 @@ brew install --cask jupyter-notebook-viewer
 brew install wget
 brew install tldr
 brew install htop
+brew install tree
