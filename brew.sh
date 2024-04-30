@@ -22,6 +22,7 @@ brew install --cask steermouse
 brew install --cask notion
 brew install --cask rectangle
 brew install --cask caffeine
+brew install --cask rar
 
 # # DS
 brew install --cask iterm2
